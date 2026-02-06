@@ -1,0 +1,11 @@
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\CryptoApi.exe
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\appsettings.Development.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\appsettings.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\CryptoApi.dll
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\CryptoApi.deps.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\CryptoApi.runtimeconfig.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\CryptoApi.pdb
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\Microsoft.OpenApi.dll
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Afrot\Desktop\CryptoApiCICD\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
