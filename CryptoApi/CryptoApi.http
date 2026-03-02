@@ -1,4 +1,4 @@
-@CryptoApi_HostAddress = http://localhost:5172
+@CryptoApi_HostAddress = http://localhost:5000
 
 ### Test Encrypt
 POST {{CryptoApi_HostAddress}}/crypto/encrypt
@@ -8,8 +8,6 @@ Content-Type: application/json
   "text": "Hello World",
   "shift": 3
 }
-
-###
 
 ### Test Decrypt
 POST {{CryptoApi_HostAddress}}/crypto/decrypt

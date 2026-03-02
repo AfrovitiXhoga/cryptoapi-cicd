@@ -34,3 +34,15 @@ C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\obj\Release\net8.0\refint\CryptoA
 C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\obj\Release\net8.0\CryptoApi.pdb
 C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\obj\Release\net8.0\CryptoApi.genruntimeconfig.cache
 C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\obj\Release\net8.0\ref\CryptoApi.dll
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\web.config
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\appsettings.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\CryptoApi.deps.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\CryptoApi.runtimeconfig.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\CryptoApi.staticwebassets.endpoints.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\web.config
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\appsettings.Development.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\appsettings.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\CryptoApi.deps.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\CryptoApi.runtimeconfig.json
+C:\Users\Afrot\Desktop\CryptoApiCICD\CryptoApi\bin\Release\net8.0\publish\publish\CryptoApi.staticwebassets.endpoints.json

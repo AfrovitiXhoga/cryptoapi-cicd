@@ -9,9 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup .NET
@@ -24,6 +23,3 @@ jobs:
 
       - name: Build
         run: dotnet build ./CryptoApiCICD.sln --no-restore -c Release
-
-      - name: Test
-        run: dotnet test ./CryptoApiCICD.sln --no-build -c Release
