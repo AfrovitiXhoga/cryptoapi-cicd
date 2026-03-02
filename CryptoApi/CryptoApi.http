@@ -1,6 +1,19 @@
-@CryptoApi_HostAddress = http://localhost:5172
+@CryptoApi_HostAddress = http://localhost:5000
 
-GET {{CryptoApi_HostAddress}}/weatherforecast/
-Accept: application/json
+### Test Encrypt
+POST {{CryptoApi_HostAddress}}/crypto/encrypt
+Content-Type: application/json
 
-###
+{
+  "text": "Hello World",
+  "shift": 3
+}
+
+### Test Decrypt
+POST {{CryptoApi_HostAddress}}/crypto/decrypt
+Content-Type: application/json
+
+{
+  "text": "Khoor Zruog",
+  "shift": 3
+}
