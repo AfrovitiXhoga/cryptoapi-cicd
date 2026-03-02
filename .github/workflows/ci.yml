@@ -1,16 +1,16 @@
-name: CI
+name: CI-CD-ElasticBeanstalk
 
 on:
   push:
-    branches: [ "develop" ]
-  pull_request:
-    branches: [ "develop" ]
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-test-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup .NET
@@ -23,3 +23,25 @@ jobs:
 
       - name: Build
         run: dotnet build ./CryptoApiCICD.sln --no-restore -c Release
+
+      - name: Test
+        run: dotnet test ./CryptoApiCICD.sln --no-build -c Release
+
+      - name: Publish
+        run: dotnet publish ./CryptoApiCICD.sln -c Release -o publish
+
+      - name: Create deployment package
+        run: |
+          cd publish
+          zip -r ../deploy.zip .
+
+      - name: Deploy to Elastic Beanstalk
+        uses: einaregilsson/beanstalk-deploy@v22
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          region: ${{ secrets.AWS_REGION }}
+          application_name: ${{ secrets.EB_APPLICATION_NAME }}
+          environment_name: ${{ secrets.EB_ENVIRONMENT_NAME }}
+          version_label: ${{ github.sha }}
+          deployment_package: deploy.zip
